@@ -1,0 +1,44 @@
+*, ::after, ::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 90%;
+    min-height: 100vh;
+    padding: 1rem 0;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+input, button{
+    padding: 1rem;
+    margin: 1rem 0;
+    font-size: 1rem;
+}
+
+button{
+    background-color: darkkhaki;
+    color: white;
+}
+
+.movie_data{
+    border: 1px solid black;
+    display: flex;
+    justify-self: center;
+    gap: 1rem;
+    text-align: start;
+    width: 70%;
+    margin: 2rem;
+}
+
+.movie_paragraph{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
